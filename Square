@@ -1,0 +1,14 @@
+import turtle 
+turtle.Screen().bgcolor("pink")
+board = turtle.Turtle()
+num_sides = 4
+side_length = 70
+angle = 90
+for i in range(num_sides):
+    board.forward(side_length)
+    board.right(angle)
+
+
+
+
+
